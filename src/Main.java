@@ -1,12 +1,16 @@
+import java.time.LocalDate;
 
-public class Main {
+public class Main extends Usuario {
     public static void main(String[] args) {
 
-        System.out.println("Olá, bem-vindo ao nosso sistema de cadastro de usuário!");
+        Usuario usuario = new Usuario();
+        String nome = usuario.setNome("Arthur");
+        String email = usuario.setEmail("arthur@gmail.com");
 
-        for (int i = 1; i <= 5; i++) {
+        System.out.println(nome);
+        System.out.println(email);
 
-            System.out.println("i = " + i);
-        }
+
+
     }
 }
