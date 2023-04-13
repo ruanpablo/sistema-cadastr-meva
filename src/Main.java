@@ -1,16 +1,13 @@
-import java.time.LocalDate;
 
-public class Main extends Usuario {
+public class Main {
     public static void main(String[] args) {
 
-        Usuario usuario = new Usuario();
-        String nome = usuario.setNome("Arthur");
-        String email = usuario.setEmail("arthur@gmail.com");
+        System.out.println("Olá, bem-vindo ao nosso sistema de cadastro de usuário!");
 
-        System.out.println(nome);
-        System.out.println(email);
+        for (int i = 1; i <= 5; i++) {
 
-
-
+            System.out.println("i = " + i);
+            System.out.println("Finanilizando review git e git hub");
+        }
     }
 }
